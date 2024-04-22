@@ -9,7 +9,7 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family:Arial, Helvetica, sans-serif;
     background-color: blanchedalmond;
 
@@ -19,6 +19,16 @@ header {
     background-color: aliceblue;
     position: fixed;
     width: 100vw;
+    display: flex;
+    z-index: 99; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 /* Footer */
@@ -27,7 +37,7 @@ header {
     list-style-type: none;
     justify-content: space-evenly;
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     left: 10px;
     z-index: 10;
     padding: 20px;
@@ -36,7 +46,11 @@ header {
 
 #menu {
     list-style-type: none;
-    font-size: 1.2rem
+    font-size: 1rem;
+    gap: 30px;
+    
+
+
 }
 
 #menu > li {
@@ -47,6 +61,33 @@ nav {
     position: absolute;
     background-color: aliceblue;
     width: 100%;
+    top: 100%;
+    display: flex;
     
 
+}
+
+h1 { font-size: 2rem;
+    
+
+}
+
+/*Media query to include tablets and up*/
+@media screen and (min-width:768px) {
+    nav {display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+}
+
+
+/* Laptop and desktop 992px and up*/
+@media screen and (min-width: 992px) {
+  #menu a:hover{
+    border-bottom: 1px solid blue;
+  }  
 }
