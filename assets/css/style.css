@@ -14,6 +14,10 @@ body {
 
 }
 
+main, header, section, aside, footer {
+    padding: 15px
+}
+
 header {
     background-color: aliceblue;
     position: fixed;
@@ -55,12 +59,44 @@ main {
     color: yellowgreen;
 }
 
+
+
+.facts {
+    background-color: greenyellow;
+}
+
+.technology {
+    background: pink;
+    border: 1px solid orange
+}
+
+.user {
+color:blue;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.members {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blood {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.stroke {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* Footer */
 #social {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 10px;
     z-index: 10;
@@ -105,6 +141,18 @@ h1 { font-size: 2rem;
 
     #menu {
         display: flex;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .facts {
+        flex: 1;
+    }
+
+    .technology {
+        flex: 0 1 400px;
     }
 }
 
