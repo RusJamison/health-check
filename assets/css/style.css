@@ -14,12 +14,23 @@ body {
 
 }
 
+.space {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.bloodpressure-video {
+    padding-top: 20px;
+    padding-bottom: 20px,
+}
+
 main, header, section, aside, footer {
     padding: 15px
 }
 
 header {
-    background-color: aliceblue;
+    background-color: rgb(255, 249, 240);
     position: fixed;
     width: 100vw;
     display: flex;
@@ -27,6 +38,7 @@ header {
     display: flex; 
     justify-content: space-between;
     align-items: baseline;
+    color:blue;
 }
 
 main {
@@ -39,12 +51,13 @@ main {
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
-    background-size: cover;
+    background-size:cover;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    object-fit:cover;
 
 
 }
@@ -89,6 +102,10 @@ padding-bottom: 20px;
 .stroke {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+p form {
+    color: purple;
 }
 
 /* Footer */
