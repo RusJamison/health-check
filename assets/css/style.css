@@ -87,6 +87,44 @@ main {
 color:blue;
 padding-top: 20px;
 padding-bottom: 20px;
+display:flex;
+flex-direction: column;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 50%;
+    margin: 10px 5px;
+    padding 15px 30px;
+    box-sizing: border-box;
+    height: 36px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+
+}
+label[for=textarea] {
+    color:blue;
+padding-top: 20px;
+}
+textarea {
+
+ width: 100%;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    height: 36px;
+    border: 2px solid green;
+    border-radius: 5px;
+    left: 20px;
+    background-color: aqua;
 }
 
 .members {
