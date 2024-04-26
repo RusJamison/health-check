@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 /*Body style */
@@ -22,23 +22,30 @@ body {
 
 .bloodpressure-video {
     padding-top: 20px;
-    padding-bottom: 20px,
+    padding-bottom: 20px;
 }
 
-main, header, section, aside, footer {
-    padding: 15px
+main, section, aside, footer {
+    padding: 15px;
 }
+
+#logo {
+
+}
+
 
 header {
-    background-color: rgb(255, 249, 240);
+    background-color:blanchedalmond;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    z-index: 99; 
+    /*z-index: 99; */
     display: flex; 
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: baseline;
     color:blue;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 main {
@@ -58,6 +65,7 @@ main {
     align-items: center;
     flex-direction: column;
     object-fit:cover;
+    
 
 
 }
@@ -94,8 +102,8 @@ flex-direction: column;
 input[type=text], input[type=email], input[type=password] {
     width: 50%;
     margin: 10px 5px;
-    padding 15px 30px;
-    box-sizing: border-box;
+   /* padding 15px 30px;
+    box-sizing: border-box;*/
     height: 36px;
     border: 2px solid blue;
     border-radius: 5px;
@@ -105,7 +113,7 @@ input[type=text], input[type=email], input[type=password] {
     flex-direction: column;
 
 }
-label[for=textarea] {
+.labeltextarea {
     color:blue;
 padding-top: 20px;
 }
@@ -127,9 +135,22 @@ button {
     background-color: aqua;
 }
 
+input[type=radio] {
+    background-color: blue;
+    color:blueviolet;
+    width: 1.25rem;
+    height: 1.25rem;
+   /* border: 0.5 rem solid blueviolet;*/
+}
+
+.radio {
+    color: blue;
+}
+
 .members {
     padding-top: 20px;
     padding-bottom: 20px;
+    color:#8a2be2
 }
 
 .blood {
@@ -173,25 +194,26 @@ p form {
 }
 
 nav {
-    position: absolute;
+    position:absolute;
     background-color: aliceblue;
     width: 100%;
     top: 100%;
     display: flex;
     
+    
 
 }
 
-h1 { font-size: 2rem;
+h1 { font-size: 1.15rem;
     
 
 }
 
 /*Media query to include tablets and up*/
 @media screen and (min-width:768px) {
-    nav {display: block;
-        position: relative;
-        width: fit-content;
+    nav {display:block;
+        position:relative;
+        width:fit-content;
     }
 
     #menu {

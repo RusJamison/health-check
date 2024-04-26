@@ -9,12 +9,12 @@
      <meta name="keywords" content="health check, medical equipment, high blood pressure, vital signs, stroke, heart attack, heart disease,
      blood pressure check, Ireland, over 50 years old">
     <title>Health Check</title>
-    <link rel="icon" type="image/png" size="32x32" href="assets/favicon/favicon.png">
+    <!--<link rel="icon" type="image/png" size="32x32" href="assets/favicon/favicon.png"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html"></a>
             <h1 id="logo">Health Check</h1>
             <nav>
                 <ul id="menu">
@@ -27,13 +27,10 @@
                     </li>
                     <li>
                         <a href="signup.html" class="active">Sign up</a>
-                    </li>
-                    <li>
-                        <a href="memberstestimonials.html">Members Testimonials</a>
                     </li> 
                 </ul>
             </nav>
-        </a>
+        
     </header>
 
     <!--Main Content-->
@@ -42,7 +39,7 @@
             Members Sign-up
         </h2>
 
-        <p>
+        <p class="members">
             Your story whether you were affected or is affected by high blood pressure, stroke, heart attack or heart disease can help someone to change his/her behaviour
             and you can save a life. So sign-up to find more about high blood pressure, stroke, heart attack and heart disease or to share your experience
             or someone close to you experience. This might take the reluctance to people to test themselves especially men.
@@ -55,7 +52,9 @@
                 <input type="text" id="last" name="lastname" required>
             </div>
 
-            <p>Select a condition to learn more or to share your experience</p>
+            <section class="radio">
+
+            <h3>Select a condition to learn more or to share your experience</h3>
 
             <div class="blood">
                 <label for="bloodpressure">Blood Pressure</label>
@@ -77,14 +76,18 @@
                 <input type="radio" name="heart" id="heart">
             </div>
 
+        </section>
+
             <div class="user">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
             </div>
+
+            <h3 class="labeltextarea">Comments / Request / Testimonials</h3>
             <div class="textarea">
-            <label for="textarea">Comments/Request/Testimonials</label>
+           <!-- <label for="textarea">Comments/Request/Testimonials</label>--> 
             <textarea cols="50" rows="10"></textarea>
 
             <button>Submit</button>
