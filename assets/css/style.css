@@ -35,13 +35,13 @@ main, section, aside, footer {
 
 
 header {
-    background-color:blanchedalmond;
+    background-color:whitesmoke;
     position: fixed;
     width: 100%;
     display: flex;
     /*z-index: 99; */
     display: flex; 
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: baseline;
     color:blue;
     padding-left: 20px;
@@ -56,7 +56,7 @@ main {
 .hero {
     background-image: url("../images/bloodpressuretesting4.webp");
     background-repeat: no-repeat;
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-size:cover;
     display: flex;
