@@ -11,6 +11,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family:Arial, Helvetica, sans-serif;
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -107,6 +110,7 @@ input[type=text], input[type=email], input[type=password] {
     height: 36px;
     border: 2px solid blue;
     border-radius: 5px;
+    padding: 5px;
 }
 .textarea {
     display: flex;
@@ -124,6 +128,7 @@ textarea {
     box-sizing: border-box;
     border: 2px solid blue;
     border-radius: 5px;
+    padding: 5px;
 }
 
 button {
@@ -133,6 +138,7 @@ button {
     border-radius: 5px;
     left: 20px;
     background-color: aqua;
+    display:block
 }
 
 input[type=radio] {
@@ -141,6 +147,7 @@ input[type=radio] {
     width: 1.25rem;
     height: 1.25rem;
    /* border: 0.5 rem solid blueviolet;*/
+   display:block
 }
 
 .radio {

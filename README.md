@@ -1,9 +1,43 @@
 
-# Rusaka Jamison
+# Health Check
 
-## Health Check
+[View Website](https://rusjamison.github.io/health-check/  "Health Check")
 
-[View Health Check](https://rusjamison.github.io/health-check/)
+Health Check is the site which informs and encourages the public to monitor their health at home. The main focus is on the High Blood Pressure which is a silent killer. Two out of three people over the age of 50 years has High Blood Pressure and if unchecked could be fatal. Early detection is the key and technology is on our side.
+
+- We are the most fortunate and informed habitants to live on planet earth.
+
+- Integrated Circuits (IC) technology has improved greatly over the past ten years, making medical equipment accurate, smarter, reliable and easy to use in home setting.
+
+To minimize unnecessary visits to the doctors for our aging population the basic patient vital monitoring can now be done easily at home. The availability of basic medical equipment which is affordable, cheap and equally acurate can be easily used and results shared with doctors using remote monitoring. Since information storage is now cheap also due to IC technology the patient vital signs measurements can be stored and shared with doctors during the next visit. This wealth of information will assist the doctors to come with better outcomes for the patient.
+
+![Screen size response](documentation/response.webp)
+
+## Table of Contents
+
+* [User Experience](#user-experience)
+
+
+
+## User Experience
+
+### User Stories
+
+* #### First Time Visitor Goals
+    * Want to understand what to benefit from the website
+    * Want to navigate throughout the site easily
+    * To find short, reliable and accurate information
+    * To learn new information quickly
+    * To be able to apply what the site offer
+
+* #### Returning visitor Goals
+    * Want to find more helpful information
+    * Want to find
+
+
+
+
+
 
 
 
