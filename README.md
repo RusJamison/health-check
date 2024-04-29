@@ -155,3 +155,20 @@ To minimize unnecessary visits to the doctors for our aging population the basic
 
 
 
+### Validator Testing
+
+[HTML Validator](https://validator.w3.org)
+
+    Results for index.html
+![HTML validation results](documentation/index-html%20validation%20.webp)
+
+    Results for sign-up.html
+![HTML sign-up results](documentation/signup-html-validation.webp)
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    CSS Results with error
+![CSS results with error](documentation/css-validator-error.webp)
+
+    CSS Results after correcting line 118
+![CSS validation results](documentation/css-validator-results.webp)
