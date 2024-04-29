@@ -76,7 +76,7 @@ To minimize unnecessary visits to the doctors for our aging population the basic
     * High Blood Pressure explained in simple language for anyone to understand, short and simple to the point.
     * The Resources page takes into account users engages for a short time on a topic before getting bored.
 
-    [High Blood Pressure](<iframe width="560" height="315" src="https://www.youtube.com/embed/D1bg5NSpRoI?si=6Pnv6XBV6lE6gj0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>)
+    ![High Blood Pressure](documentation/high-blood-pressure-explained.webp)
 
 
     [To view above Resources visit Website](https://rusjamison.github.io/health-check/  "Health Check") 
@@ -90,6 +90,32 @@ To minimize unnecessary visits to the doctors for our aging population the basic
 
     [To view above Resources visit Website](https://rusjamison.github.io/health-check/  "Health Check")
 
+* The Sign-up Page
+    * The Sign-up Page allows the user/vistor to comment, request or leave a testimonial if there is need for the user/visitor to do.
+    * The user need to sign with their name, email and password to comment, request and leave testimonial. The need of password is due to the nature of information we are dealing with, Data Protection is key for the users/visitors information.
+    
+    ![The Sign-Up Form](documentation/signup-form.webp)
+
+    * To acknowledge the submission of the form by the user a message with input details pops on the screen (Meanwhile the formdump.codeinstitute.net page with the data submitted displayed)
+
+    ![Submitted Form Acknowlegement](documentation/submitted-form-acknowlegement.webp)
+
+
+### Future Features
+
+* Vital Signs Page
+    * Apart from High Blood Pressure, everyone over 40 years is encouraged to know their cholesterol levels. This test can be easily carried at home.
+    * It is good health check practise to know your oxygen level, heart rate (pulse) temperature, weight and respiratory rate (breathing rate). All these tests can be easily now carried at home due to cheap and reliable equipment.
+
+* Connectivity and Storage
+    * Having data but not using it is useless.
+    * In the future once you are signed you have the option to link your vital signs trend with your doctor or community clinic.
+    * Alarm limits are set on the readings and once the readings are above or below set limits your doctor or community clinic is notified who will in turn take action by encouraging health living or carry further checks.
+    * Another option is just allow you to store your results and share with them the next time you visit your doctor.
+* Clinical Engineers
+    * A team of clinical engineers will have a dedicated page to deal with equipment recommended for use at home.
+    * Work with doctors and nurses to implement this.
+    
 
 
 
