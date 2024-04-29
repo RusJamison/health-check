@@ -16,6 +16,12 @@ To minimize unnecessary visits to the doctors for our aging population the basic
 ## Table of Contents
 
 * [User Experience](#user-experience)
+* [Features](#features)
+* [FutureFeatures](#future-features)
+* [Deployment](#deployment)
+* [Testing](#testing)
+* [Technologies Used](#technologies-used)
+* [Credits](#credits)
 
 
 
@@ -116,6 +122,21 @@ To minimize unnecessary visits to the doctors for our aging population the basic
     * A team of clinical engineers will have a dedicated page to deal with equipment recommended for use at home.
     * Work with doctors and nurses to implement this.
 
+## Deployment
+
+    Open your repositories on GitHub
+    Select health check
+
+    Select settings
+    Select Pages
+
+    Make sure source is Deploy from Branch
+
+    Select main for branch and folder for root then click save
+
+    Your site lives at https://rusjamison.github.io/health-check/
+    
+
 ## Testing
 
 ### Browser Compatibility
@@ -172,3 +193,73 @@ To minimize unnecessary visits to the doctors for our aging population the basic
 
     CSS Results after correcting line 118
 ![CSS validation results](documentation/css-validator-results.webp)
+
+    Landing Page Lighthouse Results
+![Landing Page Lighthouse results](documentation/landing-page-lighthouse.webp)
+
+## Technologies Used
+
+    HTML5
+    CSS3
+
+    Git
+    GitHub
+
+    Balsamiq
+
+    Google fonts
+    Font Awesome
+
+    Visual Studio Code
+    Markdown
+
+## Credits
+
+    The Code Institute Learning Platform, Learning Management System (LMS) was the main basis of my codes for this project mainly from the Coders Coffeehouse project and Love Running.
+
+    Thanks to Amy Richardson for the resources she gave us during the course of this project.
+
+    Thanks to my mentor Brian Macharia for his mentoring sessions, guidance, patience, encouragement and constant motivation throughout the project.
+
+### Content
+Irish High Blood Pressure Statistics (https://irishheart.ie/your-health/our-health-programmes/healthy-communities/mobile-health-unit/)
+
+Why men avoid going to the doctors (https://www.healthline.com/health-news/why-so-many-men-avoid-doctors?c=62125905332)
+
+IC Technology in medical equipment (https://www.avnet.com/wps/portal/apac/resources/article/ic-technology-in-medical-equipment/)
+
+NHS Health Check (https://www.nhs.uk/conditions/nhs-health-check/)
+
+Frequency of checks (https://www.emedicinehealth.com/checkup/article_em.htm)
+
+Flex codes (https://coder-coder.com/build-flexbox-website-layout/)
+
+Nav (https://tutorials.shecodes.com.au/html_and_css/4_structure/3_nav/)
+
+Flex (https://tutorials.shecodes.com.au/html_and_css/4_structure/3_nav/)
+
+
+
+
+Future Features (https://www.letsgetchecked.ie/home-sti-test/?clickid=SUQyxcSijxyPTNE2IdUp23P9UkHRJxzRNweVVw0&utm_source=impact&utm_medium=affiliates&utm_campaign=8695&utm_content=Online%20Tracking%20Link_ONLINE_TRACKING_LINK_&utm_term=1999899_Healthline%20Media&irgwc=1)
+
+### Media
+WEBP conversion (https://picflow.com/convert/png-to-webp)
+
+Hero image (https://www.pexels.com/)
+
+Favicon (https://www.flaticon.com/free-icon/cardiogram_249205)
+
+High Blood Pressure (https://bloodpressureexplained.com/category/high-blood-pressure/)
+
+HealthSketch ( https://support.google.com/youtube/answer/171780?hl=en-GB )
+
+Arm position during Blood Pressure measurement (https://www.youtube.com/watch?v=948kp1XNTq0&list=PL42A8vXJeY0ZEQpmCM1ajHnYIXyDdjd-z&index=15)
+
+
+
+
+    
+
+
+
