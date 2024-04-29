@@ -86,7 +86,8 @@ main {
 
 
 .facts {
-    background-color: greenyellow;
+    background-color: yellowgreen; 
+    
 }
 
 .technology {
@@ -96,18 +97,25 @@ main {
 
 .user {
 color:blue;
-padding-top: 20px;
-padding-bottom: 20px;
+/*padding-top: 20px;
+padding-bottom: 20px;*/
 display:flex;
 flex-direction: column;
 }
 
+form {
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
 input[type=text], input[type=email], input[type=password] {
-    width: 50%;
+    width: 30%;
     margin: 10px 5px;
    /* padding 15px 30px;
     box-sizing: border-box;*/
-    height: 36px;
+    height: 28Spx;
     border: 2px solid blue;
     border-radius: 5px;
     padding: 5px;
@@ -123,12 +131,14 @@ padding-top: 20px;
 }
 textarea {
 
- width: 100%;
+ width: 80%;
     margin: 10px 5px;
     box-sizing: border-box;
     border: 2px solid blue;
     border-radius: 5px;
     padding: 5px;
+    height: 120px;
+
 }
 
 button {
@@ -206,6 +216,8 @@ nav {
     width: 100%;
     top: 100%;
     display: flex;
+    padding-left: 20px;
+    
     
     
 
