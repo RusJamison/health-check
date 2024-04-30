@@ -6,7 +6,7 @@
 * {
     padding: 0;
     margin: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 /*Body style */
@@ -31,7 +31,7 @@ body {
 .bloodpressure-video {
     padding-top: 20px;
     padding-bottom: 20px;
-    frameBorder: 0;
+
 }
 
 main, section, aside, footer {
@@ -100,6 +100,12 @@ main {
 .technology {
     background: pink;
     border: 1px solid orange
+}
+
+.technology li {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .user {
@@ -232,11 +238,12 @@ nav {
     width: 100%;
     top: 100%;
     display: flex;
-    padding-left: 20px;
-    
-    
-    
+    padding-left: 20px;  
 
+}
+
+nav a {
+    text-decoration: none;
 }
 
 h1 { font-size: 1.15rem;
