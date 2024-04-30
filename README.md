@@ -213,6 +213,10 @@ To minimize unnecessary visits to the doctors for our aging population the basic
     Visual Studio Code
     Markdown
 
+## wireframe
+
+![Wireframe](documentation/wireframe.webp)
+
 ## Credits
 
     The Code Institute Learning Platform, Learning Management System (LMS) was the main basis of my codes for this project mainly from the Coders Coffeehouse project and Love Running.
