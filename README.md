@@ -238,8 +238,11 @@ Nav (https://tutorials.shecodes.com.au/html_and_css/4_structure/3_nav/)
 
 Flex (https://tutorials.shecodes.com.au/html_and_css/4_structure/3_nav/)
 
+Navigation bar code(https://www.linkedin.com/learning/html-and-css-linking/creating-a-simple-vertical-navigation-bar)
 
+README.md (Love Running Code and Coding Club project Institute Learning Management System)(https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2)
 
+README.md(https://github.com/elainebroche-dev/ms1-thrive/)
 
 Future Features (https://www.letsgetchecked.ie/home-sti-test/?clickid=SUQyxcSijxyPTNE2IdUp23P9UkHRJxzRNweVVw0&utm_source=impact&utm_medium=affiliates&utm_campaign=8695&utm_content=Online%20Tracking%20Link_ONLINE_TRACKING_LINK_&utm_term=1999899_Healthline%20Media&irgwc=1)
 
