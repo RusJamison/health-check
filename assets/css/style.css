@@ -35,7 +35,8 @@ body {
 }
 
 main, section, aside, footer {
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #logo {
@@ -46,7 +47,7 @@ main, section, aside, footer {
 
 header {
     background-color:whitesmoke;
-    position:relative;
+    position:fixed;
     width: 100%;
     display: flex;
     /*z-index: 99; */
@@ -60,13 +61,13 @@ header {
 
 main {
     flex: 1 0 auto;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 .hero {
     background-image: url("../images/bloodpressuretesting4.webp");
     background-repeat: no-repeat;
-    height: 700px;
+    height: 1000px;
     width: 100%;
     background-size:cover;
     display: flex;
