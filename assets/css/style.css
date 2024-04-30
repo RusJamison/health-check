@@ -225,7 +225,7 @@ p form {
     padding: 1rem;
     color:#2c3e57;
     font-weight: bold;
-    border-bottom: 1px solid #666;
+    /*border-bottom: 1px solid #666;*/
 }
 
 #menu > li {
