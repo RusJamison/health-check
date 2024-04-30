@@ -46,7 +46,7 @@ main, section, aside, footer {
 
 header {
     background-color:whitesmoke;
-    position: fixed;
+    position:relative;
     width: 100%;
     display: flex;
     /*z-index: 99; */
