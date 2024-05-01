@@ -31,6 +31,7 @@ body {
 .bloodpressure-video {
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
 
 
 }
@@ -301,5 +302,10 @@ h1 { font-size: 1.15rem;
 }
 
 iframe {
+    
+}
+
+.fa {
+    font-size: 25px;
     
 }
