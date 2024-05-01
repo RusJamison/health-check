@@ -206,7 +206,7 @@ p form {
 #social {
     display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content:center;
     position: relative;
     bottom: 0;
     left: 10px;

@@ -135,6 +135,21 @@ To minimize unnecessary visits to the doctors for our aging population the basic
     Select main for branch and folder for root then click save
 
     Your site lives at https://rusjamison.github.io/health-check/
+
+### Run Project Locally
+    
+    Clone project into Gitpod
+        GitHub account. [Create GitHub Account](https://github.com)
+    
+    1. Install [Gitpod Extension for Chrome](https://gitpod.io/docs/browser-extension/)
+    2. Use your Gitpod account to [Log into Gitpod](https://gitpod.io)
+    3. [Health Check project repository](https://github.com/RusJamison/health-check.git)
+    4. Create gitpod workspace.
+        Click the "Code" button to the right of the screen, click HTTPs and copy the link there
+        Open a GitBash terminal and navigate to the directory where you want to locate the clone
+        On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+
+    
     
 
 ## Testing
@@ -215,7 +230,13 @@ To minimize unnecessary visits to the doctors for our aging population the basic
 
 ## wireframe
 
+### Landing Page
+
 ![Wireframe](documentation/wireframe.webp)
+
+### Resources Page
+
+![Wireframe](documentation/resources-page2%20(1).webp)
 
 ## Credits
 
