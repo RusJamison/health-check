@@ -32,6 +32,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 
+
 }
 
 main, section, aside, footer {
@@ -57,17 +58,18 @@ header {
     color:blue;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 main {
     flex: 1 0 auto;
-    /*margin-top: 50px;*/
+    margin-top: 50px;
 }
 
 .hero {
     background-image: url("../images/bloodpressuretesting4.webp");
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 800px;
     width: 100%;
     background-size:cover;
     display: flex;
@@ -76,6 +78,7 @@ main {
     align-items: center;
     flex-direction: column;
     object-fit:cover;
+    
     
 
 
@@ -215,6 +218,7 @@ p form {
     list-style-type: none;
     font-size: 1rem;
     gap: 30px;
+    /*padding: 1rem;*/
 }
 
 #menu a:hover {
@@ -230,8 +234,10 @@ p form {
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
 }
+
+
 
 nav {
     position:absolute;
@@ -283,4 +289,17 @@ h1 { font-size: 1.15rem;
   #menu a:hover{
     border-bottom: 1px solid blue;
   }  
+}
+
+.members {
+    color:black;
+    width: 90wv;
+}
+
+.members h2 {
+    padding-top: 40px;;
+}
+
+iframe {
+    
 }
